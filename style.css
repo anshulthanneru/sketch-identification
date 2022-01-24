@@ -1,0 +1,30 @@
+body {
+    background-color: mediumaquamarine;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+#show_sketch {
+    float: right;
+    margin-right: 20px;
+}
+
+canvas {
+    border: 5px ridge cornsilk;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 35px;
+}
+
+p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 32px darkgray;}
+    to {box-shadow: 1px 1px 32px whitesmoke;}
+}
